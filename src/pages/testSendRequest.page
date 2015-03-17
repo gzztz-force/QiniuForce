@@ -1,0 +1,10 @@
+<apex:page showHeader="true" sidebar="true" controller="QiniuUtilGeorge">
+	<apex:form id="scopes">
+		<apex:image value="data:image;base64,{!Imag}" />
+		<apex:commandButton action="{!testShow}" value="testGetRequest"/>
+		<br/>
+		<apex:outputText value="{!Img2}" />
+		<br/>
+		<apex:image value="data:image;base64,{!Img2}" />
+	</apex:form>
+</apex:page>

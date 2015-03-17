@@ -1,0 +1,5 @@
+config/
+src/staticresources/
+*.log
+deploy/
+*.sublime*
